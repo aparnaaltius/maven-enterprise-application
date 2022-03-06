@@ -20,5 +20,18 @@
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://18.118.162.104:8081/repository/enterpriseapplication-release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://18.118.162.104:8081/repository/enterpriseapplication-snapshot/</url>
+	    </snapshotRepository>
+	</distributionManagement>
+	
   
 </project>
