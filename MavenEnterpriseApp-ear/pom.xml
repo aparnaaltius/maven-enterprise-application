@@ -24,5 +24,18 @@
             <type>war</type>
         </dependency>
     </dependencies>
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>arun Releases Nexus Repository</name>
+	      <url>http://18.118.162.104:8081/repository/enterpriseapplication-release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>arun Snapshot Nexus Repository </name>
+	      <url>http://18.118.162.104:8081/repository/enterpriseapplication-snapshot/</url>
+	    </snapshotRepository>
+	</distributionManagement>
+	
 </project>
 
